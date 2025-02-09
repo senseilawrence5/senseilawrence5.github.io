@@ -14,11 +14,9 @@ body{
 	background-color: black;
 }
 .lastrow{
-	background-image: url("../img/cobrakailogo.jpg");
-	padding-top: 400px;
-	padding-bottom: 400px;
-	padding-left: 300px;
-	padding-right: 300px;
+	background-image: url("../img/cobrakailogo1.jpg");
+	padding-top: 300px;
+	padding-bottom: 600px;
 }
 h1{
 	color: #780606;
@@ -33,7 +31,7 @@ h1{
 .blackcolor{
 	color: #780606;
 	font-family: serif, times new roman;
-	font-size: 25px;
+	font-size: 35px;
 }
 .redcolor{
 	color: whitesmoke;
@@ -42,4 +40,8 @@ h1{
 .lastparagraph{
 	color: whitesmoke;
 	font-family: fantasy, papyrus;
+}
+.backcolor{
+	padding-bottom: 50px;
+	padding-top: 50px;
 }

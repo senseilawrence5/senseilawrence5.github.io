@@ -8,6 +8,62 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Cover page styles */
+        #cover {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Image button styles */
+        #cover img {
+            cursor: pointer;
+            width: 200px; /* Adjust the size of the image */
+            height: auto;
+            border: none;
+            transition: opacity 0.3s ease;
+        }
+
+        #cover img:hover {
+            opacity: 0.8;
+        }
+
+        /* Main website content (hidden initially) */
+        #main-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Cover page -->
+<div id="cover">
+    <img src="img/cobra.png" alt="WELCOME TO COBRA KAI" onclick="showWebsite()" />
+</div>
+<script>
+    function showWebsite() {
+        // Hide the cover page
+        document.getElementById('cover').style.display = 'none';
+        // Show the main content
+        document.getElementById('main-content').style.display = 'block';
+    }
+</script>
+</html>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
