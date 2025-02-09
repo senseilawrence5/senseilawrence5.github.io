@@ -7,3 +7,39 @@
 .dogoo{
 	width:400px;
 }
+.thirdcolumn{
+	padding-top: 50px;
+}
+body{
+	background-color: black;
+}
+.lastrow{
+	background-image: url("../img/cobrakailogo.jpg");
+	padding-top: 400px;
+	padding-bottom: 400px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+h1{
+	color: #780606;
+	font-size: 100px;
+	font-family: fantasy, copperplate;
+}
+.photos{
+	color: #780606;
+	font-family: serif, times new roman;
+	font-size: 25px;
+}
+.blackcolor{
+	color: #780606;
+	font-family: serif, times new roman;
+	font-size: 25px;
+}
+.redcolor{
+	color: whitesmoke;
+	font-family: serif, times new roman;
+}
+.lastparagraph{
+	color: whitesmoke;
+	font-family: fantasy, papyrus;
+}
